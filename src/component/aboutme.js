@@ -16,36 +16,16 @@ class About extends Component {
           </Cell>
           <Cell col = {6} style = {{padding: '20px'}} className = "aboutme-right-column">
             <figure>
-            <img
-            src="https://lh3.googleusercontent.com/7R94akZjlnyuxwtluZAWLdluAWq7vXRzmpnws3OzgqTcQaj2F9068-1PdkV0tledfb3q7MhscHCiKOgm3TN3KxU11eqwSNhRrJbY_YyeI7XEMiodZGws7mg06tSW-ka2Zfri-S5gtR8DksxknGDtDteTMH5Z54jl1LWS1zzyBA2TKCiHmQOHxKFyZuBZz_s0RYckVih2oQlBSLapRXgwr17T_JcCT5qZ_-gbuCnGQK3EIpTsWtzKIAV0OB29tOqqFyos-GEZ0gOOe9Nd0o3iLfylzU7N9TahFaKmLP39weJYWJ_hzv_INWGiNZQGIoByL29fpb3JLXwEu0YQLR-1DmmYOWCVergonjAV240Pk8BcQY0ZtMic5DWHkz12flI1jM2F-KG5EYgu7pLYVFzoFtizeWp_GAPcyBJZgmVddIk7jt5C97rFO8Ps7v2ZxVRwOMExN7BRG5rx20ha6fHId7j_oUVXgz3G_GC8FB3O5JYHLAVanX1JJctVhZON3AObQDkXn54O__kSS8x4bGqurVlfOSuHHhv1b7gqI9Mx6dYME8RBGJH7xf5ulkhCzpfhit2IrBJJB4mDxepy9-Z-LxOwRU6GzbPAHiqBHcVehovF6QrNUxOPI1MnTW9wzVKSil9vD5pr0bK_XgHRomNyLUt2ppqaJ2XrC9DbNSOTGExaAJ_slJ0tRlxk=w625-h833-no"
-            alt="Me"
-            style = {{height: '250px'}}
-            />
-            <figcaption>Picture of me in Australia!</figcaption>
-            </figure>
+              <img
+              src="https://lh3.googleusercontent.com/7R94akZjlnyuxwtluZAWLdluAWq7vXRzmpnws3OzgqTcQaj2F9068-1PdkV0tledfb3q7MhscHCiKOgm3TN3KxU11eqwSNhRrJbY_YyeI7XEMiodZGws7mg06tSW-ka2Zfri-S5gtR8DksxknGDtDteTMH5Z54jl1LWS1zzyBA2TKCiHmQOHxKFyZuBZz_s0RYckVih2oQlBSLapRXgwr17T_JcCT5qZ_-gbuCnGQK3EIpTsWtzKIAV0OB29tOqqFyos-GEZ0gOOe9Nd0o3iLfylzU7N9TahFaKmLP39weJYWJ_hzv_INWGiNZQGIoByL29fpb3JLXwEu0YQLR-1DmmYOWCVergonjAV240Pk8BcQY0ZtMic5DWHkz12flI1jM2F-KG5EYgu7pLYVFzoFtizeWp_GAPcyBJZgmVddIk7jt5C97rFO8Ps7v2ZxVRwOMExN7BRG5rx20ha6fHId7j_oUVXgz3G_GC8FB3O5JYHLAVanX1JJctVhZON3AObQDkXn54O__kSS8x4bGqurVlfOSuHHhv1b7gqI9Mx6dYME8RBGJH7xf5ulkhCzpfhit2IrBJJB4mDxepy9-Z-LxOwRU6GzbPAHiqBHcVehovF6QrNUxOPI1MnTW9wzVKSil9vD5pr0bK_XgHRomNyLUt2ppqaJ2XrC9DbNSOTGExaAJ_slJ0tRlxk=w625-h833-no"
+              alt="Me"
+              style = {{height: '250px'}}
+              />
+              <figcaption>Picture of me in Australia!</figcaption>
 
-            <form action="">
-              <label for='name'> Your name</label>
-              <input type="text" id = "name" placeholder = "Your Name.."/>
+              <h3> Leave a comment </h3>
 
-              <label for='name'> Your Email</label>
-              <input type="email" id = "email" placeholder = "Your Email.."/>
-
-              <label for='comment'> Comment</label>
-              <textarea
-              id = "comment"
-              placeholder = "Your comment.."
-              style = {{height: '200px'}}
-              >
-              </textarea>
-
-               <input type="submit" value="Submit"/>
-
-            </form>
-
-
-
-
+            </div>
           </Cell>
         </Grid>
       </div>

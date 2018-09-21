@@ -133,25 +133,7 @@
   resize: vertical;
 }
 
-.aboutme-figcontainer input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
 
-
-.aboutme-figcontainer input[type=submit]:hover{
-  background-color: #45a049;
-}
-
-.aboutme-figcontainer{
-  border-radius: 5px;
-  background-color: grey;
-  padding: 20px;
-}
 
 
 
