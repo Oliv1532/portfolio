@@ -24,8 +24,8 @@ class About extends Component {
               <figcaption>Picture of me in Australia!</figcaption>
 
               <h3> Leave a comment </h3>
+            </figure>
 
-            </div>
           </Cell>
         </Grid>
       </div>
