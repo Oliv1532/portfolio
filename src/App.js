@@ -9,7 +9,9 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header style = {{background: 'black', fontFamily: 'Roboto Mono'}} title={<Link style = {{textDecoration: 'none', color: 'white'}} to ="/"> Front Page </Link>} scroll>
+          <Header style = {{background: 'black', fontFamily: 'Roboto Mono'}} title={<a href = "/" rel = "noopener noreferrer">
+            <i className = "fa fa-home home-button" aria-hidden = "true"/>
+          </a>} scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
