@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
+import mepic from './mepic.jpg';
 
 class Landing extends Component {
   render(){
@@ -8,21 +9,21 @@ class Landing extends Component {
         <Grid className = "landing-grid">
           <Cell col={12}>
             <img
-              src = "https://image.flaticon.com/icons/svg/1/1247.svg"
-              alt = "avatar"
-              className="avatar-image"
+              src = {mepic}
+              alt = "Picture of me!"
+              id="profile-pictures"
             />
             <div className = "banner-text">
-              <h1> Full Stack Web Developer</h1>
+              <h1> Oliver Bøgild Pedersen</h1>
 
               <hr/>
 
-              <p> C# | React | Software engineer | C | Java </p>
+              <p> Student Software engineer from Aalborg University </p>
 
               <div className = "social-links">
 
               {/* LinkedIn */}
-                <a href = "https://github.com/Oliv1532" target = "_blank" rel = "noopener noreferrer">
+                <a href = "https://www.linkedin.com/in/oliver-pedersen-467b0915b/" target = "_blank" rel = "noopener noreferrer">
                   <i className = "fa fa-linkedin-square" aria-hidden = "true"/>
                 </a>
 
@@ -32,15 +33,9 @@ class Landing extends Component {
                 </a>
 
               {/* FreeCodeCamp */}
-                <a href = "https://github.com/Oliv1532" target = "_blank" rel = "noopener noreferrer">
-                  <i className = "fa fa-linkedin-square" aria-hidden = "true"/>
+                <a href = "https://www.freecodecamp.org/oliv1532" target = "_blank" rel = "noopener noreferrer">
+                  <i className = "fa fa-free-code-camp" aria-hidden = "true"/>
                 </a>
-
-              {/* Something */}
-                <a href = "https://github.com/Oliv1532" target = "_blank" rel = "noopener noreferrer">
-                  <i className = "fa fa-linkedin-square" aria-hidden = "true"/>
-                </a>
-
               </div>
 
             </div>

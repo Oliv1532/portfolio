@@ -1,16 +1,22 @@
 /* My CSS FILE */
 
+#profile-pictures {
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    padding: 5em;
+}
 
 .header-color{
-  background: #52c234;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000120;
+
 }
 
 .landing-grid{
-  background: #52c234;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url(https://images.pexels.com/photos/1424464/pexels-photo-1424464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   text-align: center;
   position: fixed;
   top: 0;
@@ -67,6 +73,26 @@
   display: flex;
 }
 
+.project-background{
+  background-image: url("codepic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 8em;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.category-tabs{
+  color: white;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 /* Contact page css */
 
 .contact-body{
@@ -106,7 +132,6 @@
   font-size: 66px;
   padding-right: 5rem;
 }
-
 
 /* Contact page css */
 
