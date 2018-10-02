@@ -79,7 +79,7 @@
 }
 
 .project-background{
-  background-image: url("codepic.jpg");
+  background-image: url("https://images.unsplash.com/photo-1524135329990-07660cd5bf10?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=43a5d559c87d4e7dea909d8db0a1cabf&auto=format&fit=crop&w=701&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -113,6 +113,7 @@
   text-align: center;
   justify-content: center;
   width: 80%;
+  opacity: .9;
   background: white;
   color: black;
   margin-bottom: 20px;
@@ -205,6 +206,8 @@
   color: white;
   text-align: center;
 }
+
+
 
 
 /* About me page css */

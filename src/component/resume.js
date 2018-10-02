@@ -20,18 +20,18 @@ class Resume extends Component {
 
             </div>
             <h2 style = {{paddingTop: '2em'}}>Oliver Pedersen </h2>
-            <h4 style = {{color: 'grey'}}>Programmer </h4>
+            <h4 style = {{color: 'grey'}}>Softtware Engineer </h4>
             <hr style = {{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Just Graduated from Aalborg University in 2018 with a Bachelor in Software Engineering. I am looking for a job please hire me, i know java, C#, SQL, bit of C, bit of HTML/CSS, still learning react. So i am the perfect candidate
             </p>
             <hr style = {{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5> Adress </h5>
             <p> Harald Damtoftsvej 3 </p>
             <h5>Phone</h5>
-            <p> 24815533</p>
+            <p> (+45)24815533</p>
             <h5>Email </h5>
-            <p> hello@world </p>
+            <p> Oliver@Trendsofliving.dk </p>
             <h5>Web</h5>
             <p>bpbytes.com</p>
            </Cell>
@@ -42,47 +42,25 @@ class Resume extends Component {
             <Education
               startYear = {2012}
               endYear = {2018}
-              schoolName = "Aalborg Universitet"
-              SchoolDescription = "Blablbalablalballbalbalblalbalbalbalblablalbal lablblabla llb alblal"
+              schoolName = "Aalborg Universitet as Bachelor in Software Engineering"
+              SchoolDescription = "All degree programmes and research activities at Aalborg University are problem and project-based and have an interdisciplinary focus. Through strong interplay between staff and students and intense collaboration with public and private sectors, we offer degree programmes with a real-world approach and provide world-class research. This results in new insights, new solutions to societal challenges and knowledge that changes the world."
             />
 
-            <h2> Education </h2>
             <Education
               startYear = {2012}
               endYear = {2018}
-              schoolName = "Gymnasium"
-              SchoolDescription = "Blablbalablalballbalbalblalbalbalbalblablalbal lablblabla llb alblal"
+              schoolName = "Højere Teknisk Gymnasium Holstebro"
+              SchoolDescription = "Teknologi og Design Linje"
             />
 
-            <h2> Education </h2>
-            <Education
-              startYear = {2012}
-              endYear = {2018}
-              schoolName = "Folkeren"
-              SchoolDescription = "Blablbalablalballbalbalblalbalbalbalblablalbal lablblabla llb alblal"
-            />
 
             <hr style = {{borderTop: '3px solid #e22947'}}/>
             <h2>Experience</h2>
             <Experience
               startYear = "Still waiting"
-              endYear = "Never"
+              endYear = ""
               jobName = "Unemployed"
-              jobDescription = "Finding a job is hard"
-            />
-
-            <Experience
-              startYear = "Still waiting"
-              endYear = "Never"
-              jobName = "Unemployed"
-              jobDescription = "Finding a job is hard"
-            />
-
-            <Experience
-              startYear = "Still waiting"
-              endYear = "Never"
-              jobName = "Unemployed"
-              jobDescription = "Finding a job is hard"
+              jobDescription = "Looking for a job"
             />
 
             <hr style = {{borderTop: '3px solid #e22947'}}/>
@@ -105,6 +83,11 @@ class Resume extends Component {
             <Skills
               skill = "C"
               progress = "50"
+            />
+
+            <Skills
+              skill = "Java"
+              progress = "65"
             />
 
           </Cell>
