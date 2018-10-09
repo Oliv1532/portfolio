@@ -1,7 +1,7 @@
 {
   "name": "portfoliosite",
   "version": "0.1.0",
-  "homepage": "http://bpbytes.com",
+  "homepage": "http://oliv1532.github.io/portfoliosite",
   "private": true,
   "dependencies": {
     "babel-preset-react": "^6.24.1",
